@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Dosis|Fjalla+One|Montserrat|Noto+Sans+JP|PT+Sans+Caption|PT+Sans+Narrow|Playfair+Display|Reem+Kufi|Ropa+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+    line-height: 1.2rem;
+    color: #EEF4ED;
+}
+
+h1 {
+    color: #EEF4ED
+}
+
+.main_container {
+    position: relative;
+    background: #13315C;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    color: #8DA9C4;
+}
+
+.navbar .navbar_items ul {
+    display: flex;
+}
+
+.navbar .navbar_items ul li {
+    text-transform: uppercase;
+    margin: 0 0.6rem;
+}
+
+
