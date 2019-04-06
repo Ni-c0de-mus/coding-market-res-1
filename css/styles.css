@@ -17,10 +17,6 @@ p {
     color: #EEF4ED;
 }
 
-h1 {
-    color: #EEF4ED
-}
-
 h1.title {
     margin-bottom: 1.2rem;
     color: #FF70A6;
@@ -136,4 +132,48 @@ h1.title {
 
 .diff_services .diff_services_item h3 {
     color: #FF70A6;
+    margin-bottom: .9rem;
 }
+
+/* Contact */
+
+.form_input {
+    margin-bottom: .9rem;
+}
+
+.form_input input[type="text"] {
+    width: 15rem;
+    padding: .6rem 1.2rem;
+    border: 2px solid #FF70A6;
+}
+
+.form_input textarea {
+    width: 15rem;
+    padding: .6rem 1.2rem;
+    height: 5rem;
+    resize: none;
+    border: 2px solid #FF70A6;
+}
+
+/* Our team */
+
+.ourteam {
+    background: #13315C;
+}
+
+.ourteam_wrapper .team {
+    display: flex;
+}
+
+.ourteam_wrapper .team-1 .team {
+    margin-bottom: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
